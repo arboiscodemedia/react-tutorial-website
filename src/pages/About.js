@@ -76,7 +76,7 @@ const data =[
      <CardMedia
       component="img"
       sx={{ width: 400 }} 
-      image="/img/photo.jpg"
+      image="./img/photo.jpg"
       alt="This is my cover photo"/>
 
       

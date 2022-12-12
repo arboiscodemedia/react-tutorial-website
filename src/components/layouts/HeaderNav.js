@@ -31,7 +31,7 @@ export default function HeaderNav(props) {
   return (
     <>
     <Toolbar className={classes.toolbar}>
-        <Avatar className={classes.avatar} src="/img/dexter.png"/>
+        <Avatar className={classes.avatar} src="./img/dexter.png"/>
           <IconButton
             color="inherit"
             aria-label="open drawer"

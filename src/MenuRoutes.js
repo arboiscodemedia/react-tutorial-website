@@ -8,9 +8,9 @@ const MenuRoutes =()=>{
     return( 
     <Routes>
        <Route element={<Main/>}> 
-         <Route path='/' element={<Home/>} />
-         <Route path='about' element={<About/>}/>
-         <Route path='contact' element={<Contact/>}/>  
+         <Route path="/react-tutorial-website/" element={<Home/>} />
+         <Route path="/react-tutorial-website/about" element={<About/>}/>
+         <Route path="/react-tutorial-website/contact" element={<Contact/>}/>  
        </Route>      
     </Routes>
     )

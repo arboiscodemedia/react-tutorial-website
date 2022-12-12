@@ -52,7 +52,7 @@ export default function Home() {
             height: 70,
             mb: 2
           }}
-          src = "/img/dexter.png"
+          src = "./img/dexter.png"
          />
           <Typography variant='h6' sx={{fontWeight: 'bold'}}>
            Ricardo Arbois
@@ -151,7 +151,7 @@ export default function Home() {
          <CardMedia
             component='img'
             height = '250'
-            image="/img/photo.jpg"
+            image="./img/photo.jpg"
           />
             <Box
             sx={{
@@ -229,11 +229,11 @@ export default function Home() {
             Views
            </Link>
             <AvatarGroup max={5}>
-              <Avatar src='/img/img1.png'/>
-              <Avatar src='/img/img2.png'/>
-              <Avatar src='/img/img3.png'/>
-              <Avatar src='/img/img4.png'/>
-              <Avatar src='/img/img5.png'/>
+              <Avatar src="./img/img1.png"/>
+              <Avatar src="./img/img2.png"/>
+              <Avatar src="./img/img3.png"/>
+              <Avatar src="./img/img4.png"/>
+              <Avatar src="./img/img5.png"/>
             </AvatarGroup>
        </Box>
 

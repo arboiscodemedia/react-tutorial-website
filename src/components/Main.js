@@ -42,12 +42,12 @@ export default function Main(props) {
   };
 
   const menu1 = [
-       { title:'Home', path: '/'}, 
-       { title:'About', path: '/about'}
+       { title:'Home', path: '/react-tutorial-website/'}, 
+       { title:'About', path: '/react-tutorial-website/about'}
       ]
 
   const menu2 = [
-     { title:'Contact', path: '/contact' }
+     { title:'Contact', path: '/react-tutorial-website/contact' }
     ]
 
   const drawer = (
@@ -63,7 +63,7 @@ export default function Main(props) {
       >
         <Avatar
           component={Link}
-          src='/img/dexter.png'
+          src="./img/dexter.png"
           sx={{
             cursor: 'pointer',
             width: 64,
